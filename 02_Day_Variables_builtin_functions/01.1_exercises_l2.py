@@ -50,6 +50,25 @@ pi = 3.1416
 area_of_circle = pi * (radius ** 2)
 print(area_of_circle) # 2826.0
 
+#& Calculate the circumference of a circle and assign the value to a variable name of circum_of_circle
 circum_of_circle = radius * radius
 print(circum_of_circle) # 9
 
+#& Take radius as user input and calculate the area.
+user_radius = input("Pls give me a radius: ")
+int_user_radius = int(user_radius)
+area = pi * (int_user_radius ** 2)
+print(f'The area of the circle is: {area}')
+
+"""#^ 6
+    Use the built-in input function to get 
+    first name, last name, country and 
+    age from a user and store the value to 
+    their corresponding variable names
+"""
+first_name = input("Write down your first name: ")
+last_name = input("Write down your last name: ")
+age = input("Write down your age: ")
+
+iam = f'My name is {first_name} {last_name}, I am {age} years old'
+print(iam)
