@@ -1,4 +1,3 @@
-import math
 
 ###*** Exercises in Python ***###
 
