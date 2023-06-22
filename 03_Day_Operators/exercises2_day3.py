@@ -13,6 +13,7 @@ print("on", "python" and "dragon")
 print("jargon" in "I hope this course is not full of jargon.") # True
 
 #* Exercise 15 - There is no 'on' in both dragon and python
+print("on" in "dragon" and "python")
 
 """#*_Exercise 16_
 Find the length of the text python and convert 
