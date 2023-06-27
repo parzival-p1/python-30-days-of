@@ -112,7 +112,32 @@ print(last_char[0]) # C is the char in index [0]
 Coding For All.
 """
 last_index = "Coding For All"
-print(last_index[-1:]) # l is tha 
+print(last_index[-1:]) # l is the last idx
 
 """_#* Exercise_17_
+17. What character is at index 10 in 
+"Coding For All" string.
 """
+idx_10 = "Coding For All"
+print(idx_10[10]) # l is the idx 10 in the str
+
+"""_#* Exercise_18_
+18. Create an acronym or an abbreviation 
+for the name 'Python For Everyone'
+"""
+acron = 'Python For Everyone'
+print(acron[0] + acron[7] + acron[11]) # PFE
+
+"""_#* Exercise_19_
+19. Create an acronym or an abbreviation 
+for the name 'Coding For All'
+"""
+abrev = 'Coding For All'
+print(abrev[0] + abrev[7] + abrev[11]) # CFA
+
+"""_# Exercise_20_
+20. Use index to determine the position of 
+the first occurrence of C in Coding For All
+"""
+idx_pos = 'Coding For All'
+print(idx_pos.index('C')) # 0
