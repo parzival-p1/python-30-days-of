@@ -31,7 +31,7 @@ print(last_fruit) # lemon
 last_index = len(fruits) - 1
 last_fruit = fruits[last_index]
 
-# Accessing items
+# Accessing List Items Using Negative Indexing
 fruits = ['banana', 'orange', 'mango', 'lemon'] 
 last_fruit = fruits[-1]
 second_last = fruits[-2]
@@ -132,7 +132,7 @@ print(fruits_and_vegetables )
 
 # join with extend
 num1 = [0, 1, 2, 3]
-num2= [4, 5,6]
+num2 = [4, 5,6]
 num1.extend(num2)
 print('Numbers:', num1)
 negative_numbers = [-5,-4,-3,-2,-1]
