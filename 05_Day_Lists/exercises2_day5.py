@@ -50,7 +50,7 @@ if len(countries) % 2 == 0:
     print(countries[mid], countries[idx])
 else:
     num = len(countries) // 2
-    print(countries[num]) 
+    print(countries[num])
 
 #*** 2nd Problem ***
 fst_country_list = len(countries) % 2
