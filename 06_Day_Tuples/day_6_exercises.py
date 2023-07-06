@@ -46,8 +46,8 @@ three items from food_staff_lt list
 6. Delete the food_staff_tp tuple completely
 7. Check if an item exists in tuple:
 8. Check if 'Estonia' is a nordic country
-
 Check if 'Iceland' is a nordic country
+
 nordic_countries = ( 'Denmark', 'Finland','Iceland', 
     'Norway', 'Sweden')
 """
@@ -72,3 +72,15 @@ print(food_stuff_lt[0:7] + food_stuff_lt[9:16])
 
 #* Exercise 5
 print(food_stuff_lt[0:3] + food_stuff_lt[3:-4])
+
+#* Exercise 6
+food_stuff_lt.clear()
+print(food_stuff_lt)
+
+#* Exercise 7
+nordic_countries = (
+    'Denmark', 'Finland','Iceland', 
+    'Norway', 'Sweden')
+
+print('Estonia' in nordic_countries) # False
+print('Iceland' in nordic_countries) # True
