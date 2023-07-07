@@ -98,3 +98,7 @@ print(len(set(age))) # 5
 '''
 str
 '''
+
+iam = 'I am a teacher and I love to inspire and teach people'
+print(set(iam).intersection())
+
