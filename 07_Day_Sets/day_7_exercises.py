@@ -91,7 +91,7 @@ Use the split methods and set to get the unique words.
 age = [22, 19, 24, 25, 26, 24, 25, 24]
 
 #^ Exercise 1
-print(len(age))     # 8 
+print(len(age))     # 8
 print(len(set(age))) # 5
 
 #^ Exercise 2
@@ -103,4 +103,3 @@ iam = 'I am a teacher and I love to inspire and teach people'
 spl = iam.split()
 
 print(set(spl))
-
