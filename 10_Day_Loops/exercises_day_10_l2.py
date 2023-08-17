@@ -1,5 +1,5 @@
 
-#*** *** E x e r c i s e s :  L e v e l  1 *** ***#
+#*** *** E x e r c i s e s :  L e v e l  2 *** ***#
 
 '''
 1. Use for loop to iterate from 0 to 100 and print 

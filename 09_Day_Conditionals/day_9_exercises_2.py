@@ -1,8 +1,7 @@
 
 #*** *** E x e r c i s e s :  L e v e l  2 *** ***#
-
 '''
-1. Write a code which gives grade to students 
+1. Write a code which gives grade to students
 according to theirs scores:
 
 80-100, A
@@ -23,6 +22,7 @@ elif score == score in range(50, 59):
     print("Your final grade is D, you failed! 😣")
 else:
     print("Your final grade is E, you completly failed! 🤐")
+
 
 '''
 2. Check if the season is Autumn, Winter, Spring or Summer.

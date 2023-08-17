@@ -64,4 +64,3 @@ print(student)
 
 '''11. Delete one of the dictionaries'''
 doggito.clear()
-
