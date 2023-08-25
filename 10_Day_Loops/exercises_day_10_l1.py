@@ -13,19 +13,19 @@ while loop.
 #     print(j)
 #     j +=  1
 '''
-2. Iterate 10 to 0 using for loop, do the same using 
+2. Iterate 10 to 0 using for loop, do the same using
 while loop.
 '''
 # for k in range(10, -1, - 1):
 #     print(k)
-# 
+#
 # a = 10
 # while a >= 0:
 #     print(a)
 #     a -= 1
 
 '''
-3. Write a loop that makes seven calls to print(), 
+3. Write a loop that makes seven calls to print(),
 so we get on the output the following triangle:
 
 #
@@ -60,7 +60,7 @@ for i in range(0, 8):
     for j in range(0, 8):
         char += "# "
     print(char)
-    
+
 '''
 5. Print the following pattern:
 0 x 0 = 0

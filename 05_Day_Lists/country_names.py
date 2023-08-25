@@ -193,7 +193,5 @@ countries = [
   'Yemen',
   'Zambia',
   'Zimbabwe',
-];
-
+]
 print(len(countries))
-
