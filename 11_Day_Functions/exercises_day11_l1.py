@@ -159,12 +159,62 @@ def remove_item(lst, item):
 
     lst.remove(item)
     return lst
+
 print(remove_item(food_staff, 'Mango')) # ['Potato', 'Tomato', 'Milk', 'Meat']
 print(remove_item(numbers, 3)) # [2, 7, 9, 5]
 
-'''
+''' Exercise 13
 Declare a function named sum_of_numbers. It takes a
 number parameter and it adds all the numbers in
 that range.
 '''
-def sum_of_numbers(num):
+def sum_of_numbers(n):
+
+    total = 0
+    lst = range(n+1)
+
+    for num in lst:
+        total = total + num
+    return total
+
+print(f"The sum of all the numbers in 5 is: {sum_of_numbers(5)}") # 15
+print(f"The sum of all the numbers in 10 is: {sum_of_numbers(10)}") # 55
+print(f"The sum of all the numbers in 100 is: {sum_of_numbers(100)}") # 505
+
+print("\n")
+
+''' Exercise 14
+Declare a function named sum_of_odds. It takes a number
+parameter and it adds all the odd numbers in that range.
+'''
+def sum_of_odds(number):
+    total = 0
+    lst_num = range(number + 1)
+
+    for number in lst_num:
+        if number % 2 != 0:
+            total += number
+    return total
+
+print(f"The sum of all odd numbers in 5 is {sum_of_odds(5)}")
+print(f"The sum of all odd numbers in 10 is {sum_of_odds(10)}")
+print(f"The sum of all odd numbers in 100 is {sum_of_odds(100)}")
+print("\n")
+
+''' Exercise 15
+Declare a function named sum_of_even. It takes
+a number parameter and it adds all the even numbers
+in that - range.
+'''
+def sum_of_evens(num):
+    total_e = 0
+    num_lst = range(num + 1)
+
+    for num in num_lst:
+        if num % 2 == 0:
+            total_e += num
+    return total_e
+
+print(f"The sum of all evens in 5 is: {sum_of_evens(5)}")
+print(f"The sum of all evens in 10 is: {sum_of_evens(10)}")
+print(f"The sum of all evens in 100 is: {sum_of_evens(100)}")
