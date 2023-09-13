@@ -1,10 +1,10 @@
 
 #*** *** E x e r c i s e s :  L e v e l  11 *** ***#
 
-''' Exercise 1. 
-Declare a function add_two_numbers. 
+''' Exercise 1.
+Declare a function add_two_numbers.
 It takes two parameters and it returns a sum.
-''' 
+'''
 
 def add_two_numbers(num1, num2):
     result = num1 + num2
@@ -93,7 +93,7 @@ def slope(x1, x2, y1, y2):
 print(f"slope = {slope(5, 10, 10, 20)} ")
 
 ''' Exercise 7
-Quadratic equation is calculated as follows: ax² + bx + c = 0 
+Quadratic equation is calculated as follows: ax² + bx + c = 0
 Write a function which calculates solution set of a quadratic
 equation, solve_quadratic_eqn.
 '''
@@ -106,7 +106,7 @@ equation, solve_quadratic_eqn.
 
 
 ''' Exercise 8
-Declare a function named print_list. It takes a list as a 
+Declare a function named print_list. It takes a list as a
 parameter and it prints out each element of the list.
 '''
 def print_list(*lst):
@@ -150,8 +150,8 @@ print(add_item(food_staff, 'Meat'))
 print(add_item(numbers, 5))
 
 ''' Exercise 12
-Declare a function named remove_item. It takes a list 
-and an item parameters. It returns a list with the 
+Declare a function named remove_item. It takes a list
+and an item parameters. It returns a list with the
 item removed from it.
 '''
 
